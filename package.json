@@ -1,14 +1,28 @@
 {
-  "name": "login-xp-playwright",
+  "name": "playwright-action",
   "version": "1.0.0",
   "description": "Projeto de testes de login com Playwright",
+  "homepage": "https://github.com/Alessandropecanha/playwright-actions#readme",
+  "bugs": {
+    "url": "https://github.com/Alessandropecanha/playwright-actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandropecanha/playwright-actions.git"
+  },
+  "license": "MIT",
+  "author": "ASP",
+  "type": "commonjs",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {},
-  "author": "Fernando Papito",
-  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.56.1",
+    "playwright-core": "^1.56.1",
+    "undici-types": "^7.16.0"
+  },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.2"
